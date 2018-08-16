@@ -45,6 +45,7 @@ function save(event) {
 
 function home(event){
     event.preventDefault()
+    console.log("confirm")
     document.location.href = "justin's_code/html/homepage.html"
 
 }
