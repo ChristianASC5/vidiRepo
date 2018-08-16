@@ -30,7 +30,7 @@ function save(event) {
             data.once("value", function (result) {
                 if (result.val() == undefined) {
                     data.update(profile);
-                    window.location.href = "../login.html";
+                    window.location.href = "login.html";
                 } else {
                     console.log("User already exists")
                     alert("Username already exists")
