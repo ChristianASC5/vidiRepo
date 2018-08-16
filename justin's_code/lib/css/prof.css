@@ -1,0 +1,195 @@
+body{
+
+	margin: 0px;
+	background-color: rgb(203, 223, 231);
+
+}
+
+p{
+	font-family: 'Comfortaa', cursive;
+	margin-left: 10px;
+}
+
+#logo{
+
+	background-image: url();
+		
+		width: 16vh;
+		height: 15vh;
+		margin-left: auto;
+		margin-right: 50px;
+		margin-top: 10px;
+		position: relative;
+		background-repeat: no-repeat;
+		background-size: 80%;
+		background-position: center;
+
+		margin-bottom: -90px;
+		z-index:100;
+		background-color: white;
+		border-radius:50px;
+		border-style: solid;
+		border-color: rgb(203, 223, 231);
+		border-width: 5px;
+		padding: 10px;
+
+}
+
+#header_text{
+
+text-align: center;
+background-color: white;
+
+width:50vw;
+
+margin-left: 10vw;
+margin-right: auto;
+
+height: 30px;
+border-radius: 90px;
+
+margin-bottom: -100px;
+
+position: relative;
+
+z-index: 100;
+
+border-color: rgb(203, 223, 231);
+border-style: solid;
+border-width: 5px;
+padding-top: 2px;
+
+}
+
+#header_text p {
+
+font-size: 20px;
+margin-top: 5px;
+}
+
+/*main content*/
+
+#main_container{
+
+
+background: white;
+width: 90vw;
+height: 200vh;
+margin-left: auto;
+margin-right: auto;
+margin-bottom: 100px;
+margin-top: 10vh;
+padding: 20px;
+border-radius: 10px;
+flex-direction: row;
+
+}
+
+
+.video{
+
+display: flex;
+margin:20px;
+width: 300px;
+height:200px;
+border-style: solid;
+flex-direction: column;
+
+}
+
+#thumb_holder{
+
+display: flex;
+width: 300px;
+height:150px;
+background-color: rgb(0,0,0);
+
+
+}
+
+.video video{
+
+display: flex;
+
+margin-left: auto;
+margin-right: auto;
+
+height:150px;
+
+}
+
+#banner{
+	background-color: black;
+	height: 10%;
+	width: 100%;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+
+.videos_container{
+	
+	height: 15%;
+	width: 100%;
+	margin-top: 20px;
+	
+	overflow: hidden;
+}
+
+#new_videos{
+	background-color: rgb(203, 223, 231);
+	height: 78%;
+	width: 100%;
+	margin-top: 20px;
+}
+
+.videos_container p{
+
+	background-color: rgb(203, 223, 231);
+	height: 20px;
+	width: 200px;
+	
+	border-style: solid;
+	border-color: white;
+	text-align: center;
+	border-radius: 20px;
+	border-width: 3px;
+	margin-bottom: -33px;
+	position: relative;
+	z-index: 10;
+}
+
+
+
+#reccomended_videos{
+	background-color: rgb(203, 223, 231);
+	height: 78%;
+	width: 100%;
+	margin-top: 20px;
+}
+
+a{
+	background-color: white;
+	text-decoration: none;
+	font-family: 'Comfortaa', cursive;
+	font-size: 10px;
+	color: rgba(0,0,0,.5);
+	align-self: center;
+	padding:5px;
+	border-style: solid;
+	border-radius: 90px;
+	border-color: rgb(203, 223, 231);
+	margin-left: 10px;
+
+}
+
+a:hover{
+	
+	border-color: #7EA8BE;
+	background-color: rgb(203, 223, 231);
+	color: #7EA8BE;
+	
+}
+
+
+/*main content*/

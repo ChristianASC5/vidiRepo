@@ -1,0 +1,129 @@
+body{
+
+	margin: 0px;
+	background-color: rgb(203, 223, 231);
+
+}
+
+p{
+	font-family: 'Comfortaa', cursive;
+	margin-left: 10px;
+}
+
+#logo{
+
+	background-image: url("C:/Users/ASC Student/Documents/vidi/assets/vidi_logo.png");
+		
+		width: 15vh;
+		height: 15vh;
+		margin-left: 10vw;
+		margin-top: 10px;
+		z-index: 10;
+		background-repeat: no-repeat;
+		background-size: 100%;
+
+}
+
+#header_text{
+
+background-color: white;
+text-align: center;
+width:50vw;
+
+margin-left: auto;
+margin-right: auto;
+padding-top: 2px;
+height: 70px;
+border-radius: 20px;
+
+margin-bottom: -100px;
+
+}
+
+#header_text p {
+
+font-size: 20px;
+
+}
+
+/*main content*/
+
+#main_container{
+
+
+background: white;
+width: 90vw;
+height: 200vh;
+margin-left: auto;
+margin-right: auto;
+margin-bottom: 100px;
+margin-top: 10vh;
+padding: 20px;
+border-radius: 10px;
+flex-direction: row;
+
+}
+
+
+.video{
+
+display: flex;
+margin:20px;
+width: 300px;
+height:200px;
+border-style: solid;
+flex-direction: column;
+
+}
+
+#thumb_holder{
+
+display: flex;
+width: 300px;
+height:150px;
+background-color: rgb(0,0,0);
+
+
+}
+
+.video video{
+
+display: flex;
+
+margin-left: auto;
+margin-right: auto;
+
+height:150px;
+
+}
+
+#nav{
+
+width: 50%;
+height: 20px;
+
+	display: flex;
+	border-radius: 90px;
+	background-color: white;
+margin-left: 45%;
+margin-top: 10px;
+
+}
+
+a{
+	text-decoration: none;
+	font-family: 'Comfortaa', cursive;
+	font-size: 10px;
+	color: rgba(0,0,0,.5);
+	align-self: center;
+	margin-left: 40px;
+	margin-right: 10px;
+}
+
+a:hover{
+	
+	color: #EBC16A;
+	
+}
+
+/*main content*/

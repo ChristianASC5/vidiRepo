@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+
+<html>
+
+	<head>
+
+		<title> vidi create video </title>
+		
+		<script src="C:/Users/ASC Student/Documents/vidi/lib/js/cv.js" defer></script>
+
+		<link rel="stylesheet" type="text/css" href="/Users/ASC Student/Documents/vidi/lib/css/create.css">
+
+		<link href="https://fonts.googleapis.com/css?family=Comfortaa" rel="stylesheet">
+
+
+
+<!-- firebase -->
+
+		<script src="https://www.gstatic.com/firebasejs/5.3.1/firebase.js"></script>
+		<script>
+		  // Initialize Firebase
+		  var config = {
+		    apiKey: "AIzaSyBWWgsSmFB8__SZvtXFtaf44hop3lns0B4",
+		    authDomain: "vidi-database.firebaseapp.com",
+		    databaseURL: "https://vidi-database.firebaseio.com",
+		    projectId: "vidi-database",
+		    storageBucket: "vidi-database.appspot.com",
+		    messagingSenderId: "415369374926"
+		  };
+		  firebase.initializeApp(config);
+		</script>
+
+<!-- firebase -->
+
+
+	</head>
+
+	<body>
+		
+		<div id="header">
+
+			<div id="logo"></div>
+
+			<div id="header_text"><p>Create Your Very Own Video</p></div>
+
+		</div>
+
+		<div id="main_container">
+
+
+			<div id="title">
+				<p>Here is where you title your video</p>
+				<input type="text" id="title_field" placeholder="put your title here">
+			</div>
+
+			<div id="video_field">
+
+				<p>Here is where you put your video itself</p>
+
+				<div id="video_holder">
+
+					<div id="drag_files">
+						<p>drag your video file here (make sure it's an mp4 file)</p>
+					</div>
+
+					<output id="list"></output>
+					
+					<button id="submit"  onclick="previewFile()">Load Preview</button>
+
+
+					<video id="video_preview" controls></video>
+
+				</div>
+			</div>
+
+			<div id="tutorial_field">
+
+				<p>Add Some Tutorials</p>
+
+				<div id="tutorial_holder">
+
+					<div id="drag_tutorial">
+						<p>drag your tutorial files here (make sure they're mp4 files)</p>
+					</div>
+					
+					<output id="tutorial_list"></output>
+				</div>
+				
+
+			</div>
+
+			<div id="description_field">
+				<p> Here's where you describe what your video is about</p>
+				<textarea id="description" placeholder="put your description here"></textarea>
+			</div>
+
+
+			<div>
+				<button id="post"> Post Your Video</button>
+				<br>
+				<button id="watch"> Go To The Main Page</button>
+			</div>
+		</div>
+
+	</body>
+
+</html>

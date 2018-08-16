@@ -1,0 +1,232 @@
+body{
+
+	margin: 0px;
+	background-color: rgb(203, 223, 231);
+
+}
+
+p{
+	font-family: 'Comfortaa', cursive;
+		
+}
+
+#header_text{
+
+background-color: white;
+text-align: center;
+width:50vw;
+
+margin-left: auto;
+margin-right: auto;
+padding-top: 2px;
+height: 70px;
+border-radius: 20px;
+margin-bottom: -20px;
+
+}
+
+#logo{
+
+	background-image: url("C:/Users/ASC Student/Documents/vidi/assets/vidi_logo.png");
+		
+		width: 15vh;
+		height: 15vh;
+		margin-left: 10vw;
+		margin-top: 10px;
+		z-index: 10;
+		background-repeat: no-repeat;
+		background-size: 100%;
+
+}
+
+
+/*main content*/
+
+#main_container{
+
+flex-direction: column;
+background: white;
+width: 70vw;
+height: 230vh;
+margin-left: auto;
+margin-right: auto;
+margin-bottom: 100px;
+padding: 20px;
+border-radius: 10px;
+margin-top: -1vh;
+
+}
+
+#title input{
+
+	display: flex;
+	width:40vw;
+	border-radius: 20px;
+	padding: 10px;
+	border-color: transparent;
+	outline: none;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #D5EFFF;
+
+}
+
+#title{
+	margin-bottom: 120px;
+}
+
+#video_holder p{
+	font-size: 10px;
+}
+
+#video_field{
+
+height: 100vh;
+
+}
+
+#video_holder{
+
+	display: flex;
+	background-color: #D5EFFF;
+	width: 100%;
+	height: 90%;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 10px;
+	flex-direction: column;
+}
+
+#video_preview{
+
+width:90%;
+height:60%;
+border-style: solid;
+align-self: center;
+border-color: rgba(0,0,0,.2);
+border-radius: 10px;
+}
+
+#video_preview video{
+
+height: 100%;
+align-self: center;
+
+}
+
+#submit{
+
+width:50%;
+align-self: center;
+margin: 10px;
+
+}
+
+#drag_files{
+
+	display: flex;
+	border-style: double;
+	border-width: 5px;
+	height:100px;
+	width:90%;
+	align-self: center;
+	margin: 10px;
+	border-radius: 10px;
+	border-color: rgba(0,0,0,.2);
+}
+
+#drag_files p{
+
+font-size: 10px;
+
+align-self: center;
+
+margin: auto;
+
+}
+
+
+#tutorial_holder p{
+	font-size: 10px;
+}
+
+#tutorial_field{
+
+height: 200px;
+
+}
+
+#tutorial_holder{
+
+	display: flex;
+	background-color: #D5EFFF;
+	width: 90%;
+	height: 140px;
+	margin-left: auto;
+	margin-right: auto;
+
+	border-radius: 10px;
+	flex-direction: column;
+
+	overflow-y: scroll;
+}
+
+#drag_tutorial{
+
+	
+	border-style: double;
+	border-width: 5px;
+	height: 80px;
+	width: 90%;
+	margin: auto;
+	border-radius: 50px;
+	border-color: rgba(0,0,0,.2);
+}
+
+#drag_tutorial p{
+
+font-size: 10px;
+
+text-align: center;
+
+margin-top: 35px;
+
+}
+
+#description_field{
+
+
+
+}
+
+#description{
+
+	display: flex;
+	width:70%;
+	height: 40vh;
+	border-radius: 20px;
+	border-color: transparent;
+	padding: 10px;
+	margin-left: auto;
+	margin-right: auto;
+
+	background-color: #D5EFFF;
+	outline: none;
+	resize: none;
+}
+
+button {
+display: flex;
+margin-right: auto;
+margin-left: auto;
+margin-top: 1vh;
+height: 30px;
+border-radius: 20px;
+outline: none;
+}
+
+
+
+
+/*main content*/
+

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+
+<html>
+
+	<head>
+
+		<title> vidi watch videos </title>
+		
+		<script src="../lib/js/p.js" defer></script>
+
+		<script src="../lib/js/vid_click.js" defer></script>
+
+		<link rel="stylesheet" type="text/css" href="../lib/css/prof.css">
+
+		<link href="https://fonts.googleapis.com/css?family=Comfortaa" rel="stylesheet">
+
+
+
+<!-- firebase -->
+
+		<script src="https://www.gstatic.com/firebasejs/5.3.1/firebase.js"></script>
+		<script>
+		  // Initialize Firebase
+		  var config = {
+		    apiKey: "AIzaSyBWWgsSmFB8__SZvtXFtaf44hop3lns0B4",
+		    authDomain: "vidi-database.firebaseapp.com",
+		    databaseURL: "https://vidi-database.firebaseio.com",
+		    projectId: "vidi-database",
+		    storageBucket: "vidi-database.appspot.com",
+		    messagingSenderId: "415369374926"
+		  };
+		  firebase.initializeApp(config);
+		</script>
+
+<!-- firebase -->
+
+
+	</head>
+
+	<body>
+
+		<div id="header">
+
+			<div id="logo">profile logo</div>
+
+			<div id="header_text"><p id="username">Your Profile
+			</p></div>
+
+		</div>
+
+		<div id="main_container">
+			<div id="banner"></div>
+			<a href="file:///C:/Users/ASC%20Student/Documents/vidi/html/create_video.html" id="make_vid">Create a new video</a>
+
+			<div class="videos_container">
+
+				<p>New Videos</p>
+				<div id="new_videos"></div>
+
+			</div>
+
+
+
+			<div class="videos_container">
+
+				<p>Reccomended Videos</p>
+				<div id="reccomended_videos"></div>
+		</div>
+
+	</body>
+
+</html>

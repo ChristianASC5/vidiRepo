@@ -1,0 +1,756 @@
+body{
+
+	margin: 0px;
+	background-color: rgb(203, 223, 231);
+
+}
+
+p{
+	font-family: 'Comfortaa', cursive;
+	margin-left: 10px;
+}
+
+#title p{
+	margin-top: 10px;
+}
+
+/*head elements*/
+	#header{
+
+	display: flex;
+	
+	height:11vh;
+	margin-top: 5vh;
+	}
+
+	#logo{
+
+		background-image: url("C:/Users/ASC Student/Documents/vidi/assets/vidi_logo.png");
+		
+		width: 15vh;
+		height: 15vh;
+		margin-left: 4vw;
+		margin-top: -10px;
+		z-index: 10;
+		background-repeat: no-repeat;
+		background-size: 100%;
+	}
+
+	#title{
+
+		border-style: solid;
+		height:5vh;
+		width:70vh;
+		margin-left: 3vh;
+		margin-top: 7.5vh;	
+		border-radius: 90px;
+		background-color: #FFFFFF;
+		border-color: #d0dfe7ff;
+		z-index: 10;
+		border-width: 4px;
+	}
+
+/*head elements*/
+
+
+
+/*Main page elements*/
+
+	#main_container{
+
+	display: flex;
+	flex-direction: row;
+
+	}
+
+	#content_container{
+
+	display: flex;
+	
+	height:150vh;
+	width: 75vw;
+	flex-direction: column;
+	margin-left: 20px;
+	margin-right: 20px;
+
+	}
+
+	#reccommended{
+
+	display: flex;
+	border-style: solid;
+	width:19vw;
+	margin-top: 2.7vh;
+	border-color: #ffffff;
+	background-color: #ffffff;
+
+	overflow-y: scroll;
+	
+	}
+
+	#video_container{
+		flex-direction: column;
+		border-style: solid;
+		border-radius: 10px;
+		background-color: #FFFFFF;
+		border-color: #d0dfe7ff;
+
+	}
+
+	#video{
+
+	color: #ffffff;
+	border-style: solid;
+	margin-top: 20px;
+	height:72vh;
+	border-color: #d0dfe7ff;
+	background-color: #000000;
+	
+
+	}
+
+	#video_player{
+
+		display: flex;
+		height:60vh;
+		justify-content: center;
+		
+	}
+
+	#video_player video{
+		display: flex;
+		height:60vh;
+		border-radius: 10px;
+
+		
+	}
+
+	#video_bar{
+
+		display: flex;
+		margin-top: 10px;
+		width:40vw;
+		height: 25px;
+		background-color: rgba(255,255,255,.9);
+		
+		margin-left: auto;
+		margin-right:auto;
+		justify-content: center;
+
+	}
+
+	
+
+	#video_footer{
+
+	display: flex;
+	flex-direction: row;
+	height: 20vh;
+	padding-top: 10px;
+
+
+	}
+
+	#description{
+
+	border-style: solid;
+	width:50vw;
+	margin-left: 10px;
+	border-radius: 10px 10px 0px 0px;
+	border-color: #d0dfe7ff;
+	border-width: 4px;
+
+	overflow-y: scroll;
+
+	}
+
+	#tutorial{
+
+	border-style: solid;
+	width:22vw;
+	margin-left: 8px;
+	border-radius: 10px 10px 0px 0px;
+	border-color: #d0dfe7ff;
+	border-width: 4px;
+
+	overflow-y: scroll;
+
+	}
+
+	#comments{
+
+	margin-top: 20px;
+	border-style: solid;
+	height: 100%;
+	border-radius:10px;
+	background-color: #ffffff;
+	border-color: #ffffff;
+	margin-bottom: 10px;
+
+	overflow-y: scroll;
+
+	}
+
+/*Main page elements*/
+
+
+
+
+
+/*media 1*/
+
+@media all and (max-width: 1300px){
+
+/*head elements*/
+	#header{
+
+	display: flex;
+	
+	height:11vh;
+	margin-top: 5vh;
+	}
+
+	#logo{
+
+		background-image: url("C:/Users/ASC Student/Documents/vidi/assets/vidi_logo.png");
+		
+		width: 12vh;
+		height: 12vh;
+		margin-left: 4vw;
+		margin-top: 15px;
+		z-index: 10;
+		background-repeat: no-repeat;
+		background-size: 100%;
+	}
+
+	#title{
+
+		border-style: solid;
+		height:5vh;
+		width:50vh;
+		margin-left: 3vh;
+		margin-top: 7.5vh;	
+		border-radius: 90px;
+		background-color: #FFFFFF;
+		border-color: #d0dfe7ff;
+		z-index: 10;
+		border-width: 4px;
+	}
+
+/*head elements*/
+
+
+
+/*Main page elements*/
+
+	#main_container{
+
+	display: flex;
+	flex-direction: row;
+
+	}
+
+	#content_container{
+
+	display: flex;
+	
+	height:150vh;
+	width: 70vw;
+	flex-direction: column;
+	margin-left: 20px;
+	margin-right: 20px;
+
+	}
+
+	#reccommended{
+
+	display: flex;
+	border-style: solid;
+	width:20vw;
+	margin-top: 2.7vh;
+	border-color: #ffffff;
+	background-color: #ffffff;
+	margin-left: -5px
+	}
+
+	#video_container{
+		flex-direction: column;
+		border-style: solid;
+		border-radius: 10px;
+		background-color: #FFFFFF;
+		border-color: #d0dfe7ff;
+
+	}
+
+	#video{
+
+	color: #ffffff;
+	border-style: solid;
+	margin-top: 20px;
+	height:72vh;
+	border-color: #d0dfe7ff;
+	background-color: #000000;
+	
+
+	}
+
+	#video_player{
+
+		display: flex;
+		height:60vh;
+		justify-content: center;
+		
+	}
+
+	#video_player video{
+		display: flex;
+		height:60vh;
+		border-radius: 10px;
+
+		
+	}
+
+	#video_bar{
+
+		display: flex;
+		margin-top: 10px;
+		width:40vw;
+		height: 25px;
+		background-color: rgba(255,255,255,.9);
+		
+		margin-left: auto;
+		margin-right:auto;
+		justify-content: center;
+
+	}
+
+	
+
+	#video_footer{
+
+	display: flex;
+	flex-direction: row;
+	height: 20vh;
+	padding-top: 10px;
+
+
+	}
+
+	#description{
+
+	border-style: solid;
+	width:40vw;
+	margin-left: 10px;
+	border-radius: 10px 10px 0px 0px;
+	border-color: #d0dfe7ff;
+	border-width: 4px;
+
+	}
+
+	#tutorial{
+
+	border-style: solid;
+	width:22vw;
+	margin-left: 8px;
+	border-radius: 10px 10px 0px 0px;
+	border-color: #d0dfe7ff;
+	border-width: 4px;
+
+	}
+
+	#comments{
+
+	margin-top: 20px;
+	border-style: solid;
+	height: 100%;
+	border-radius:10px;
+	background-color: #ffffff;
+	border-color: #ffffff;
+	margin-bottom: 10px;
+	}
+
+/*Main page elements*/
+
+}
+
+/*media 1*/
+
+
+
+
+
+/*media 2*/
+
+@media all and (max-width: 900px){
+
+/*head elements*/
+	#header{
+
+	display: flex;
+	
+	height:9vh;
+	margin-top: 1vh;
+	}
+
+	#logo{
+
+		background-image: url("C:/Users/ASC Student/Documents/vidi/assets/vidi_logo.png");
+		
+		width: 10vh;
+		height: 10vh;
+		margin-left: 5vw;
+		margin-top: 10px;
+		z-index: 10;
+		background-repeat: no-repeat;
+		background-size: 100%;
+	}
+
+	#title{
+
+		border-style: solid;
+		height:5vh;
+		width:40vh;
+		margin-left: 3vh;
+		margin-top: 5vh;	
+		border-radius: 90px;
+		background-color: #FFFFFF;
+		border-color: #d0dfe7ff;
+		z-index: 10;
+		border-width: 4px;
+	}
+
+/*head elements*/
+
+
+
+/*Main page elements*/
+
+	#main_container{
+
+	display: flex;
+	flex-direction: column;
+
+	}
+
+	#content_container{
+
+	display: flex;
+	
+	height:150vh;
+	width: 90%;
+	flex-direction: column;
+	margin-left: auto;
+	margin-right: auto;;
+
+	}
+
+	#reccommended{
+
+	display: flex;
+	border-style: solid;
+	width:90%;
+	margin-top: 2.7vh;
+	border-color: #ffffff;
+	border-radius: 10px;
+	background-color: #ffffff;
+	margin-left: auto;
+	margin-right: auto;
+	}
+
+	#video_container{
+		flex-direction: column;
+		border-style: solid;
+		border-radius: 10px;
+		background-color: #FFFFFF;
+		border-color: #d0dfe7ff;
+
+	}
+
+	#video{
+
+	color: #ffffff;
+	border-style: solid;
+	margin-top: 20px;
+	height:72vh;
+	border-color: #d0dfe7ff;
+	background-color: #000000;
+	
+
+	}
+
+	#video_player{
+
+		display: flex;
+		height:60vh;
+		justify-content: center;
+		
+	}
+
+	#video_player video{
+		display: flex;
+		height:60vh;
+		border-radius: 10px;
+
+		
+	}
+
+	#video_bar{
+
+		display: flex;
+		margin-top: 10px;
+		width:40vw;
+		height: 25px;
+		background-color: rgba(255,255,255,.9);
+		
+		margin-left: auto;
+		margin-right:auto;
+		justify-content: center;
+
+	}
+
+	
+
+	#video_footer{
+
+	display: flex;
+	flex-direction: row;
+	height: 20vh;
+	padding-top: 10px;
+
+
+	}
+
+	#description{
+
+	border-style: solid;
+	width:58vw;
+	margin-left: 10px;
+	border-radius: 10px 10px 0px 0px;
+	border-color: #d0dfe7ff;
+	border-width: 4px;
+
+	}
+
+	#tutorial{
+
+	border-style: solid;
+	width:20vw;
+	margin-left: 8px;
+	border-radius: 10px 10px 0px 0px;
+	border-color: #d0dfe7ff;
+	border-width: 4px;
+
+	}
+
+	#comments{
+
+	margin-top: 20px;
+	border-style: solid;
+	height: 100%;
+	border-radius:10px;
+	background-color: #ffffff;
+	border-color: #ffffff;
+	margin-bottom: 10px;
+	}
+
+/*Main page elements*/
+
+}
+
+/*media 2*/
+
+
+
+
+
+
+
+
+
+
+
+
+/*media 3 "mobile phones" */
+
+@media all and (max-width: 530px){
+
+/*head elements*/
+
+	#header{
+
+	display: flex;
+	
+	height:9vh;
+	margin-top: 1vh;
+	}
+
+	#logo{
+
+		background-image: url("C:/Users/ASC Student/Documents/vidi/assets/vidi_logo.png");
+		
+		width: 10vh;
+		height: 10vh;
+		margin-left: 5vw;
+		margin-top: 10px;
+		z-index: 10;
+		background-repeat: no-repeat;
+		background-size: 100%;
+	}
+
+
+	#title{
+
+		border-style: solid;
+		height:5vh;
+		width:25vh;
+		margin-left: 3vh;
+		margin-top: 5vh;	
+		border-radius: 90px;
+		background-color: #FFFFFF;
+		border-color: #d0dfe7ff;
+		z-index: 10;
+		border-width: 4px;
+	}
+	
+
+/*head elements*/
+
+
+
+/*Main page elements*/
+
+	#main_container{
+
+	display: flex;
+	flex-direction: column;
+
+	}
+
+	#content_container{
+
+	display: flex;
+	
+	height:150vh;
+	width: 90%;
+	flex-direction: column;
+	margin-left: auto;
+	margin-right: auto;;
+
+	}
+
+	#reccommended{
+
+	display: flex;
+	border-style: solid;
+	width:90%;
+	margin-top: 2.7vh;
+	border-color: #ffffff;
+	border-radius: 10px;
+	background-color: #ffffff;
+	margin-left: auto;
+	margin-right: auto;
+	}
+
+	#video_container{
+		flex-direction: column;
+		border-style: solid;
+		border-radius: 10px;
+		background-color: #FFFFFF;
+		border-color: #d0dfe7ff;
+
+	}
+
+	#video{
+
+	color: #ffffff;
+	border-style: solid;
+	margin-top: 20px;
+	height:72vh;
+	border-color: #d0dfe7ff;
+	background-color: #000000;
+	
+
+	}
+
+	#video_player{
+
+		display: flex;
+		height:60vh;
+		justify-content: center;
+		
+	}
+
+	#video_player video{
+
+		display: flex;
+		height:60vh;
+		border-radius: 10px;
+
+		
+	}
+
+	#video_bar{
+
+		display: flex;
+		margin-top: 10px;
+		width:40vw;
+		height: 25px;
+		background-color: rgba(255,255,255,.9);
+		
+		margin-left: auto;
+		margin-right:auto;
+		justify-content: center;
+
+	}
+
+	
+
+	#video_footer{
+
+	display: flex;
+	flex-direction: row;
+	height: 20vh;
+	padding-top: 10px;
+
+
+	}
+
+	#description{
+
+	border-style: solid;
+	width:51vw;
+	margin-left: 10px;
+	border-radius: 10px 10px 0px 0px;
+	border-color: #d0dfe7ff;
+	border-width: 4px;
+
+	}
+
+	#tutorial{
+
+	border-style: solid;
+	width:22vw;
+	margin-left: 8px;
+	border-radius: 10px 10px 0px 0px;
+	border-color: #d0dfe7ff;
+	border-width: 4px;
+
+	}
+
+	#comments{
+
+	margin-top: 20px;
+	border-style: solid;
+	height: 100%;
+	border-radius:10px;
+	background-color: #ffffff;
+	border-color: #ffffff;
+	margin-bottom: 10px;
+
+	}
+
+/*Main page elements*/
+
+}
+
+/*media 3*/
