@@ -41,3 +41,9 @@ function Login(event) {
 
 
 }
+
+function home(event){
+    event.preventDefault()
+    document.location.href = "justin's_code/html/homepage.html"
+
+}

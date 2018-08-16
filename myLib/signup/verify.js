@@ -1,8 +1,10 @@
 let repeat = document.getElementById("psw-repeat");
 let button = document.getElementsByClassName("signupbtn")[0];
+let cancel = document.getElementsByClassName("cancelbtn")[0];
 
 
 button.addEventListener("click", save);
+cancel.addEventListener("click", home);
 
 async function sha512(str) {
     const buf = await window.crypto.subtle.digest("SHA-512", new TextEncoder("utf-8").encode(str));
@@ -38,6 +40,12 @@ function save(event) {
     }else{
         alert("Password and repeat password are not the same")
     }
+
+}
+
+function home(event){
+    event.preventDefault()
+    document.location.href = "justin's_code/html/homepage.html"
 
 }
 
