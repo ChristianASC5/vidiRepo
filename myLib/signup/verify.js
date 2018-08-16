@@ -16,24 +16,29 @@ function save(event) {
     let user = document.getElementById("user").value;
     let email = document.getElementById("email").value;
     let psw = document.getElementById("psw").value;
-    sha512(psw).then(function (result) {
-        SHApsw = result;
-        let profile = {
-            id: user,
-            mail: email,
-            password: SHApsw
-        }
-        let data = firebase.database().ref("profiles/" + profile.id)
-        data.once("value", function (result) {
-            if (result.val() == undefined) {
-                data.update(profile);
-                window.location.href = "../login.html";
-            } else {
-                console.log("User already exists")
-                alert("Username already exists")
+    if (repeat.value == psw){
+        sha512(psw).then(function (result) {
+            SHApsw = result;
+            let profile = {
+                id: user,
+                mail: email,
+                password: SHApsw
             }
-        })
-    });
+            let data = firebase.database().ref("profiles/" + profile.id)
+            data.once("value", function (result) {
+                if (result.val() == undefined) {
+                    data.update(profile);
+                    window.location.href = "../login.html";
+                } else {
+                    console.log("User already exists")
+                    alert("Username already exists")
+                }
+            })
+        });
+    }else{
+        alert("Password and repeat password are not the same")
+    }
+
 }
 
 
